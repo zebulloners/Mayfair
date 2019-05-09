@@ -425,6 +425,15 @@ h2 {
   position: relative;
   text-align: center;
 }
+#grill{
+  background-image: url('../img/banner/bannerfive.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  position: relative;
+  text-align: center;
+}
 
 /* Blog */
 .blog{
