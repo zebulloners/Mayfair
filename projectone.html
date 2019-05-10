@@ -22,16 +22,59 @@
 
 
 <body>
-    <div class="row m-0 p-3"  style="background-color:#FAB207;font-size:13px;color:white">
-        <div class="col-md-5" id="awww">
+    <div class="row m-0 p-1"  style="background-color:#FAB207;font-size:13px;color:white">
+        <div class="col-md-5 pt-3" id="awww">
             <i class="fa fa-phone mr-2" style="color:white"></i> <span class="mr-2">+234 806 244 9857</span>
             <a href="#" class="text-white" ><i class="fa fa-envelope mr-2" style="color:white"></i>info@mayfair.ng</a>
         </div>
         <!-- <div class="col-md-3 offset-1">
             <a href="#" class="text-white"><i class="fa fa-envelope mr-2" style="color:white"></i> info@mayfair.ng</a>
         </div> -->
-        <div class="col-md-6 offset-1" style="padding-right:130px">
-           <a href="#" class="text-white" style="float:right;"><i class="fa fa-lock mr-2" style="color:white"></i>Ashtead Block 3 Cardogan Palace Estate, Jakande-Lekki Lagos </a>
+        <div class="col-md-6 offset-1">
+           <a href="#" class="text-white"><i class="fa fa-lock mr-2" style="color:white"></i>Ashtead Block 3 Cardogan Palace Estate, Jakande-Lekki Lagos </a>
+           <a href="#" class="btn btn-lg btn-dark btn-md" data-toggle="modal" data-target="#basicModal">Get Quote/Call-Back</a>
+            <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title text-center" id="myModalLabel" style="color:black;font-weight:bolder">How much will my next project cost?<br>
+                       Get a quote or request a call back and we will contact you.</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body" style="color:#c0c0c0">
+                    <!-- <h3>Modal Body</h3> -->
+                    <!-- Default form contact -->
+                    <form class="">
+                        <!-- Name -->
+                        <label><i class="fa fa-user fa-1x pr-1" aria-hidden="true"></i>Name</label>
+                        <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+
+                        <!-- Email -->
+                        <label><i class="fa fa-at fa-1x pr-1" aria-hidden="true"></i>E-mail</label>
+                        <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+                    
+                        <!-- Phone Number -->
+                        <label><i class="fa fa-phone fa-1x pr-1" aria-hidden="true"></i>Phone Number</label>
+                        <input type="text" id="defaultContactFormEmail" class="form-control mb-4" placeholder="Phone Number">
+
+                        <!-- Message -->
+                        <label><i class="fa fa-envelope fa-1x pr-1" aria-hidden="true"></i>Message</label>
+                        <div class="form-group">
+                            <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+                        </div>
+
+                    </form>
+                    <!-- Default form contact -->
+                  </div>
+                  <div class="modal-footer p-0">
+                    <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-dark">SEnd Message</button>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
     </div>
     <!-- <div> -->
@@ -141,13 +184,14 @@
               <p>Request a call back and we will contact you. Our specialists will make an estimate for free and or designers will discuss all necessary details with you.</p>
           </div>
           <div class="col-md-4 mt-5">
-              <form id="contact-form" name="contact-form" action="" method="POST">
+              <!-- <form id="contact-form" name="contact-form" action="" method="POST"> -->
                   <!-- Phone number -->
-                  <div class="md-form">
+                  <!-- <div class="md-form">
                       <input type="password" id="materialRegisterFormPhone" class="form-control" aria-describedby="materialRegisterFormPhoneHelpBlock">
                       <label for="materialRegisterFormPhone">Phone number</label>
                   </div>
-              </form>
+              </form> -->
+              <a href="#" class="btn btn-lg btn-warning btn-lg mt-3 ml-5" data-toggle="modal" data-target="#basicModal">Get Quote/Call-Back</a>
           </div>
       </div>
     </div>
@@ -214,16 +258,16 @@
               <h6 class="text-uppercase font-weight-bold">Services</h6>
               <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;background-color:#FAB207">
               <p>
-                <a href="#!">Interior Designs</a>
+                <a href="interior.html">Interior Designs</a>
               </p>
               <p>
-                <a href="#!">Exterior Designs</a>
+                <a href="exterior.html">Exterior Designs</a>
               </p>
               <p>
-                <a href="#!">Planning</a>
+                <a href="planning.html">Planning</a>
               </p>
               <p>
-                <a href="#!">Architectural Designs</a>
+                <a href="architectural.html">Architectural Designs</a>
               </p>
     
             </div>
